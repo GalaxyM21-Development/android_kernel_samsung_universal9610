@@ -306,6 +306,12 @@ config MACH_SAMSUNG_GALAXY_M31
 	help
 	  This enables support for the Samsung Galaxy M31.
 
+config MACH_SAMSUNG_GALAXY_M21
+        bool "Samsung Galaxy M21 Board"
+        depends on SOC_EXYNOS9610
+        help
+          This enables support for the Samsung Galaxy M21.
+
 
 endmenu
 endmenu

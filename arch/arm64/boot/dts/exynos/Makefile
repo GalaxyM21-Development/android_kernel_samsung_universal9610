@@ -17,6 +17,9 @@ dtbo-$(CONFIG_MACH_SAMSUNG_GALAXY_A51) += \
 dtbo-$(CONFIG_MACH_SAMSUNG_GALAXY_M31) += \
 	m31/exynos9611-m31_eur_open_00.dtbo
 
+dtbo-$(CONFIG_MACH_SAMSUNG_GALAXY_M21) += \
+        m21/exynos9611-m21_swa_open_00.dtbo
+
 always		:= $(dtb-y) $(dtbo-y)
 subdir-y	:= $(dts-dirs)
 clean-files	:= *.dtb*
